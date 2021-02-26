@@ -7,6 +7,22 @@
 }
 
 
+html {
+  }
+  body::-webkit-scrollbar {
+    /* width: 11px; */
+  }
+  /* body {
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+  }
+  body::-webkit-scrollbar-track {
+    background: lightgray;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: gray ;
+  } */
+
 
 
 /* =========== START NAVBAR =========== */
@@ -48,17 +64,48 @@ border-color: rgba(0,   0,  0, 0.5) !important;
 
 
 
-.navbarTwo{
+/* .navbarTwo{
     overflow-x: scroll;
-}
+    scrollbar-color:red yellow;
+    scrollbar-track-color: teal;
+} */
 
-::-webkit-scrollbar{
-    height: 7px;
-    background-color:#fff;
-}
 
-::-webkit-scrollbar-thumb{
+/* #secondNavbar .navbar::-webkit-scrollbar-thumb{
     height: 7px;
     background-color:#fff !important;
+} */
+
+
+#scrollNavbar::-webkit-scrollbar{
+    height: 5px;
 }
+
+#scrollNavbar::-webkit-scrollbar-thumb{
+background-color: #fff;
+}
+
+#scrollNavbar::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+
 /* =========== END NAVBAR =========== */
+
+
+/* Curousel */
+#restaurantCarousel{
+
+}
+
+#restaurantCarousel .carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+#restaurantCarousel .carousel-indicators li.active{
+    background-color: #fff;
+}
