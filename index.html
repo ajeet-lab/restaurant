@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+
+    <!-- Drawer CSS -->
+    <link rel="stylesheet" href="css/bootstrap-drawer.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Restaurant</title>
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header id="header">
+        <div class="d-flex justify-content-center py-2 " style="border-bottom: 2px solid lightgray;">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo" width="63">
+            </a>
+        </div>
+    </header>
+
+    <!-- Starts Navbar -->
+    <div class="container-fluid shadow pb-2" id="navbar">
+        <nav class="navbar navbar-expand navbar-light bg-light">
+
+            <!-- Start Drawer -->
+            <button type="button" class="btn btn-outline-secondary" data-toggle="drawer" data-target="#drawer-demo">
+                <i class="fas fa-sliders-h"></i>
+            </button>
+            <div class="drawer drawer-left slide" tabindex="-1" role="dialog" aria-labelledby="drawer-demo-title"
+                aria-hidden="true" id="drawer-demo">
+                <div class="drawer-content drawer-content-scrollable" role="document">
+                    <div class="drawer-header bg-dark py-2 text-white">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <button type="button" class="border-0 btn text-white" data-dismiss="drawer"
+                                aria-label="Close">
+                                <i class="fas fa-angle-left fa-2x"></i>
+                            </button>
+                            <h5 class="drawer-title" id="drawer-demo-title">Menu</h5>
+                            <span class="bg-white">
+                                <i class="far fa-smile text-danger fa-2x"></i></span>
+                        </div>
+                    </div>
+                    <div class="drawer-body">
+                        <p>Drawer Body</p>
+
+                    </div>
+                    <div class="drawer-footer">Drawer footer</div>
+                </div>
+            </div>
+            <!-- End Drawer -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNavbar"
+                aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="topNavbar">
+                <ul class="navbar-nav mr-auto w-100">
+                    <div class="d-flex">
+                        <li class="nav-item pt-2 ml-3">
+                            <img src="/img/location.svg" alt="" width="27px">
+                        </li>
+                        <li class="nav-item dropdown ml-2">
+                            <a class="nav-link dropdown-toggle  ml-0 pl-0" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <small>
+                                    <span style="display:block; margin-bottom: -8px;">NCR</span>
+
+                                    <span class="font-weight-bold" style="display:inline-block; margin-top: -20px;">
+                                        Delhi</span></small>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </div>
+
+
+                    <div class="d-flex justify-content-end w-100">
+                        <li class="nav-item  ml-3">
+                            <a href="" class="nav-link">
+                                <img src="img/Profile.png" alt="" width="30">
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link">
+                                <img src="img/Profile.png" alt="" width="30">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- Search Bar -->
+        <div class="mx-3">
+            <form class="d-flex navbar_search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class=" nav_search mt-1 mt-sm-1 mr-3 mr-sm-4" type="submit">
+                    <i class="fas fa-search text-danger "></i>
+                </button>
+            </form>
+        </div>
+    </div><!-- Ends Navbar -->
+    <div id="secondNavbar" class="mt-2 shadow">
+        <nav class="navbar navbar-expand-lg d-flex navbar-light bg-light pb-0 mb-0">
+            <div class="container-fluid">
+                <ul class="list-unstyled d-flex navbarTwo pb-0 mb-0">
+                  <li class="nav-item ml-0">
+                    <a class="nav-link" aria-current="page" href="#">
+                        <img src="img/icon/flash.webp" alt="" class="">
+                        Flash Sale
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                   
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/chicken.webp" alt="" class="">
+                        Chicken
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/fish.webp" alt="" class="">
+                        Fish & Seafood</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/mutton.webp" alt="" class="">
+                        Mutton
+                     </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/readytocook.webp" alt="" class="">
+                        Ready to Cook
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/prawns.png" alt="" class="">
+                        Prawans
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/combos.png" alt="" class="">
+                        Combos
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/spreads.webp" alt="" class="">
+                        Spreads
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/eggs.webp" alt="" class="">
+                        Eggs
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/coldcuts.webp" alt="" class="">
+                        Cold Cuts
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/kebab.webp" alt="" class="">
+                        Kebab &Tandoor
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="img/icon/new.png" alt="" class="">
+                        New Lunches
+                    </a>
+                  </li>
+
+                </ul>
+                
+            </div>
+          </nav>
+    </div>
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="/js/bootstrap-drawer.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+/* =========== START NAVBAR =========== */
+#navbar .navbar_search .form-control{
+border-color: rgba(0,   0,  0, 0.5) !important;
+}
+
+#navbar .navbar_search{
+    position: relative;
+}
+
+#navbar .nav_search{
+    position: absolute;
+    top:0;
+    right: 0;
+    border: 0;
+    outline: 0;
+    font-size: 1.4rem;
+    background-color: transparent;
+}
+
+#secondNavbar{
+
+}
+
+#secondNavbar .nav-item .nav-link{
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 700 !important;
+    white-space: nowrap;
+}
+
+#secondNavbar .nav-item .nav-link img{
+    display: block;
+    width: 35px;
+    margin: 0 auto 5px;
+    
+}
+
+
+
+.navbarTwo{
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    height: 7px;
+    background-color:#fff;
+}
+
+::-webkit-scrollbar-thumb{
+    height: 7px;
+    background-color:#fff !important;
+}
+/* =========== END NAVBAR =========== */
